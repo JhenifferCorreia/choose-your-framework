@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Silkscreen', cursive;
+}
+
+body {
+  font-size: 30px;
+  line-height: 1.6;
+  background-image: url('https://i.ibb.co/kX1F6zp/pixil-frame-0-1.png');
+}
+
+.poketitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokebolas_display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  gap: 1em;
+}
+
+.pokebola {
+  width: 15rem;
+  filter: grayscale(100%);
+  transition: all 150ms ease;
+}
+
+button {
+  padding: 7px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 175ms linear;
+}
+
+.pokebola:hover {
+  width: 16rem;
+  filter: grayscale(0%);
+  transition: all 150ms ease;
+}
+
+.pokebola:active {
+  width: 16rem;
+  filter: grayscale(0%);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: #000000a9;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #dadada;
+  padding: 1.5rem;
+  width: fit-content;
+  border: 13px solid #141414;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.top-modal {
+  display: flex;
+  flex-flow: row;
+}
+
+.poke-img {
+  height: 15rem;
+}
+
+.text-modal {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.bottom-modal {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: end;
+}
+
+.botãoEscolha {
+  background-color: #41b883;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.closePkb {
+  background-color: #b84141;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 00;
+}
+
+.closePkb:hover,
+.closePkb:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-0.2rem);
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+}
