@@ -29,7 +29,7 @@ function closeModal() {
 }
 
 function openVue() {
-  pokeClip =`🟩Eu escolhi Vue como meu framework inicial!\nchooseframework.vercel.app`;
+  pokeClip = `🟩Eu escolhi Vue como meu framework inicial!\nchooseframework.vercel.app`;
   pokeClass.textContent = 'Vue';
   pokeText.textContent = 'Otaco?';
   pokeImg.src = 'https://i.ibb.co/Y7QScq6/Group-1.png';
@@ -40,7 +40,7 @@ function openVue() {
 }
 
 function openAngular() {
-  pokeClip =`🟥Eu escolhi Angular como meu framework inicial!\nchooseframework.vercel.app`;
+  pokeClip = `🟥Eu escolhi Angular como meu framework inicial!\nchooseframework.vercel.app`;
   pokeClass.textContent = 'Angular';
   pokeText.textContent = 'Acho melhor não.';
   closePkb.textContent = 'Cancela';
@@ -50,7 +50,7 @@ function openAngular() {
 }
 
 function openReact() {
-  pokeClip =`🟦Eu escolhi React como meu framework inicial!\nchooseframework.vercel.app`;
+  pokeClip = `🟦Eu escolhi React como meu framework inicial!\nchooseframework.vercel.app`;
   pokeClass.textContent = 'React';
   pokeText.textContent = 'Querendo uma vaga?';
   closePkb.textContent = 'Cancela';
@@ -62,8 +62,8 @@ function openReact() {
 function pokeCopy() {
   navigator.clipboard.writeText(pokeClip);
   click.textContent = ('Copiado!');
-  setTimeout(()=> {
-    click.textContent = ('Escolher'); 
+  setTimeout(() => {
+    click.textContent = ('Escolher');
   }, 6000);//espera 6seg
 }
 

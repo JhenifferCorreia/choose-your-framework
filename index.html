@@ -1,68 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Choose you framework!</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main>
-      <section class="pokebolas_display">
+
+<head>
+  <title>Choose you framework!</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <section class="pokebolas_display">
       <h1 class="poketitle">Choose your Framework!</h1>
-        <div>
-          <button type="button" id="modalPkb-vue">
-            <img
-              class="pokebola"
-              src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
-              alt=""
-            />
-          </button>
-          <button type="button" id="modalPkb-angular">
-            <img
-              class="pokebola"
-              src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
-              alt=""
-            />
-          </button>
-          <button type="button" id="modalPkb-react">
-            <img
-              class="pokebola"
-              src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
-              alt=""
-            />
-          </button>
-        </div>
-      </section>
-      <div id="simpleModal" class="modal">
-        <div class="modal-content">
-          <div class="top-modal">
-            <img
-              class="poke-img"
-              draggable="false"
-              src="https://i.ibb.co/Y7QScq6/Group-1.png"
-              alt=""
-            />
-            <div class="text-modal">
-              <h1 class="pokeClass"></h1>
-              <p class="pokeText"></p>
-              <div class="bottom-modal">
-                <button class="botãoEscolha" id="click" onclick="pokeCopy()">
-                  <h2>Escolher</h2>
-                </button>
-                <button class="closePkb"><h2>Cancela</h2></button>
-              </div>
+      <div>
+        <button type="button" id="modalPkb-vue">
+          <img class="pokebola" src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
+            alt="" />
+        </button>
+        <button type="button" id="modalPkb-angular">
+          <img class="pokebola" src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
+            alt="" />
+        </button>
+        <button type="button" id="modalPkb-react">
+          <img class="pokebola" src="https://i.pinimg.com/originals/1b/41/20/1b412053a7b59ab47149a3eb59e5804d.png"
+            alt="" />
+        </button>
+      </div>
+    </section>
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="top-modal">
+          <img class="poke-img" draggable="false" src="https://i.ibb.co/Y7QScq6/Group-1.png" alt="" />
+          <div class="text-modal">
+            <h1 class="pokeClass"></h1>
+            <p class="pokeText"></p>
+            <div class="bottom-modal">
+              <button class="botãoEscolha" id="click" onclick="pokeCopy()">
+                <h2>Escolher</h2>
+              </button>
+              <button class="closePkb">
+                <h2>Cancela</h2>
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </main>
-    <footer><span>/jhenzaster</span></footer>
-  </body>
-  <script src="main.js"></script>
+    </div>
+  </main>
+  <footer><span>/jhenzaster</span></footer>
+</body>
+<script src="main.js"></script>
+
 </html>
