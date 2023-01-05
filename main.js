@@ -10,7 +10,7 @@ const pokeText = document.querySelector('.pokeText');
 const pokeImg = document.querySelector('.poke-img');
 const botãoEscolha = document.querySelector('.botãoEscolha');
 
-let pokeClip = "";
+let pokeClip = '';
 
 //Ouvir click
 modalPkbVue.addEventListener('click', openVue);
@@ -25,17 +25,15 @@ function openModal() {
 }
 function closeModal() {
   modal.style.display = 'none';
-
 }
 
 function openVue() {
   pokeClip = `🟩Eu escolhi Vue como meu framework inicial!\nchooseframework.vercel.app`;
   pokeClass.textContent = 'Vue';
   pokeText.textContent = 'Otaco?';
-  pokeImg.src = 'https://i.ibb.co/D8dLTff/Group-1.png';
-  pokeText.textContent = 'Otaco?';
   closePkb.textContent = 'Cancela';
-  click.textContent = ('Escolher');
+  pokeImg.src = 'https://i.ibb.co/D8dLTff/Group-1.png';
+  click.textContent = 'Escolher';
   openModal();
 }
 
@@ -45,7 +43,7 @@ function openAngular() {
   pokeText.textContent = 'Acho melhor não.';
   closePkb.textContent = 'Cancela';
   pokeImg.src = 'https://i.ibb.co/71yfx1f/Group-2.png';
-  click.textContent = ('Escolher');
+  click.textContent = 'Escolher';
   openModal();
 }
 
@@ -55,14 +53,14 @@ function openReact() {
   pokeText.textContent = 'Querendo uma vaga?';
   closePkb.textContent = 'Cancela';
   pokeImg.src = 'https://i.ibb.co/jWzG7RG/Group-3.png';
-  click.textContent = ('Escolher');
+  click.textContent = 'Escolher';
   openModal();
 }
 
 function pokeCopy() {
   navigator.clipboard.writeText(pokeClip);
-  click.textContent = ('Copiado!');
+  click.textContent = 'Copiado!';
   setTimeout(() => {
-    click.textContent = ('Escolher');
-  }, 6000);//espera 6seg
+    click.textContent = 'Escolher';
+  }, 6000); //espera 6seg
 }
