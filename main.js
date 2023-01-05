@@ -66,4 +66,3 @@ function pokeCopy() {
     click.textContent = ('Escolher');
   }, 6000);//espera 6seg
 }
-
