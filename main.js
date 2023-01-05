@@ -32,7 +32,7 @@ function openVue() {
   pokeClip = `🟩Eu escolhi Vue como meu framework inicial!\nchooseframework.vercel.app`;
   pokeClass.textContent = 'Vue';
   pokeText.textContent = 'Otaco?';
-  pokeImg.src = 'https://i.ibb.co/Y7QScq6/Group-1.png';
+  pokeImg.src = 'https://ibb.co/wwtYjhh';
   pokeText.textContent = 'Otaco?';
   closePkb.textContent = 'Cancela';
   click.textContent = ('Escolher');
